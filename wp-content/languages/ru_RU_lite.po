@@ -1,0 +1,2358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordpress 2.7 Russian Lecactus Edition\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-11 13:26+0600\n"
+"PO-Revision-Date: 2008-12-11 13:26+0600\n"
+"Last-Translator: Kalinin Ivan <lecactus@lecactus.ru>\n"
+"Language-Team: Lecactus <lecactus@lecactus.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __ngettext_noop:1,2;__ngettext:1,2;__;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: X:\\web\\wordpress\\main\\project-liteWP\\2.7\\lite\n"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:59
+msgid "Powered by WordPress"
+msgstr "Работает на WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:101
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите имя пользователя или адрес электронной почты."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:106
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>ОШИБКА</strong>: Не существует пользователя с указанным адресом электронной почты."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:118
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr "<strong>ОШИБКА</strong>: Неправильное имя пользователя или адрес электронной почты."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:132
+msgid "Password reset is not allowed for this user"
+msgstr "Сброс пароля не разрешен для этого пользователя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:144
+msgid "Someone has asked to reset the password for the following site and username."
+msgstr "Кто-то (возможно вы) попросил сбросить пароль для указанного пользователя на данном сайте:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:146
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:181
+#, php-format
+msgid "Username: %s"
+msgstr "Имя пользователя: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:147
+msgid "To reset your password visit the following address, otherwise just ignore this email and nothing will happen."
+msgstr "Для получения нового пароля пройдите по следующей ссылке. Если вы не требовали восстановление пароля, просто проигнорируйте это письмо и ничего не произойдет."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:150
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Сброс пароля"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:151
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:186
+msgid "The e-mail could not be sent."
+msgstr "Письмо не может быть отправлено."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:151
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:186
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr "Возможная причина: сервер не поддерживает функцию mail()... Обратитесь к техподдержке вашего хостинга"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:170
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:174
+msgid "Invalid key"
+msgstr "Неверный ключ"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:182
+#, php-format
+msgid "Password: %s"
+msgstr "Пароль: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:185
+#, php-format
+msgid "[%s] Your new password"
+msgstr "[%s] Ваш новый пароль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:208
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите имя пользователя."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:210
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>ОШИБКА</strong>: Недопустимое имя пользователя. Пожалуйста, введите корректное имя."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:213
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>ОШИБКА</strong>: Пользователь с таким именем уже зарегистрирован. Пожалуйста, выберите другое."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:217
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ОШИБКА</strong>: Пожалуйста, введите ваш адрес электронной почты."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:219
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ОШИБКА</strong>: Адрес электронной почты введен некорректно."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:222
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ОШИБКА</strong>: Пользователь с таким адресом электронной почты уже зарегистрирован. Пожалуйста, введите другие данные. Если вы просто забыли пароль, то  можете получить новый на этот email."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:234
+#, php-format
+msgid "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a href=\"mailto:%s\">webmaster</a> !"
+msgstr "<strong>ОШИБКА</strong>: Невозможно зарегистрировать вас... Пожалуйста обратитесь к <a href=\"mailto:%s\">администрации</a> !"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:297
+msgid "Sorry, that key does not appear to be valid."
+msgstr "Извините, этот ключ не верен."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:300
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:300
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Пожалуйста, введите ваше имя пользователя или адрес электронной почты. Вы получите новый пароль по email."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:308
+msgid "Username or E-mail:"
+msgstr "Имя пользователя или адрес электронной почты:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:312
+msgid "Get New Password"
+msgstr "Получить новый пароль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:317
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:320
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:388
+msgid "Log in"
+msgstr "Вход"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:318
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:384
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:488
+msgid "Register"
+msgstr "Регистрация"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:326
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:394
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:497
+msgid "Are you lost?"
+msgstr "Потерялись?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:326
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:394
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:497
+#, php-format
+msgid "&larr; Back to %s"
+msgstr "&larr; Вернуться назад на %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:370
+msgid "Registration Form"
+msgstr "Регистрационная форма"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:370
+msgid "Register For This Site"
+msgstr "Регистрация на сайте"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:375
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:468
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:379
+msgid "E-mail"
+msgstr "E-mail"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:383
+msgid "A password will be e-mailed to you."
+msgstr "Пароль будет отправлен вам по электронной почте"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:389
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:489
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:491
+msgid "Password Lost and Found"
+msgstr "Восстановление пароля"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:389
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:489
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:491
+msgid "Lost your password?"
+msgstr "Забыли свой пароль?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:450
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href='http://www.google.com/cookies.html'>enable cookies</a> to use WordPress."
+msgstr "<strong>ОШИБКА</strong>: Cookies заблокированы или не поддерживаются вашим браузером. Чтобы использовать WordPress, нужно <a href='http://www.google.com/cookies.html'>разрешить cookies</a>."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:453
+msgid "You are now logged out."
+msgstr "Вы вышли из системы"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:454
+msgid "User registration is currently not allowed."
+msgstr "В данный момент регистрация приостановлена."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:455
+msgid "Check your e-mail for the confirmation link."
+msgstr "Проверьте вашу электронную почту на наличие ссылки подтверждения."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:456
+msgid "Check your e-mail for your new password."
+msgstr "Новый пароль отправлен вам по электронной почте."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:457
+msgid "Registration complete. Please check your e-mail."
+msgstr "Регистрация завершена. Пожалуйста, проверьте вашу электронную почту."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:459
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:478
+msgid "Log In"
+msgstr "Войти"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:472
+msgid "Password"
+msgstr "Пароль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-login.php:476
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:51
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:125
+msgid "Akismet Configuration"
+msgstr "Конфигурация Akismet"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:60
+msgid "Cheatin&#8217; uh?"
+msgstr "Играешься, что ли?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:112
+msgid "Your key has been cleared."
+msgstr "Ваш ключ удален."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:113
+msgid "Your key has been verified. Happy blogging!"
+msgstr "Ваш ключ принят. Удачного блоггинга!"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:114
+msgid "The key you entered is invalid. Please double-check it."
+msgstr "Ваш ключ некорректен. Пожалуйста, проверьте его."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:115
+msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
+msgstr "Ключ пользователя не может быть проверен, поскольку подключение к akismet.com не может быть установлено. Пожалуйста, проверьте конфигурацию вашего сервера."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:116
+msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
+msgstr "Проблемы с подключением к серверу Akismet. Пожалуйста, проверьте конфигурацию вашего сервера."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:117
+#, php-format
+msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
+msgstr "Пожалуйста, введите API ключ. (<a href=\"%s\" style=\"color:#fff\">Получить ваш ключ.</a>)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:118
+msgid "This key is valid."
+msgstr "Этот ключ верный."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:119
+msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
+msgstr "Ключ ранее одобрен, но подключение к akismet.com не может быть установлено в настоящий момент. Пожалуйста проверьте конфигурацию вашего сервера."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:122
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:129
+#, php-format
+msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
+msgstr "Для большинства людей, <a href=\"%1$s\">Akismet</a>  значительно уменьшил или даже полностью устранил спам в комментариях и трэкбеках, которые появляются на сайте. Если не случится что «спам» прошел, просто пометьте его как «спам» на экране модерирования и Akismet будет учиться на этих ошибках. Если у Вас нет учетной записи WordPress.com, вы можете получить ее на <a href=\"%2$s\">WordPress.com</a>."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:132
+msgid "WordPress.com API Key"
+msgstr "WordPress.com API Key"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:136
+msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">Что это?</a>"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:138
+msgid "Why might my key be invalid?"
+msgstr "Почему мой ключ может быть недействительным?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:139
+msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
+msgstr "Это может означать одно из двух: либо ключ скопирован некорректно, либо плагин не может получить доступ к Akismet-серверу – это уже проблемы, связанные с вашим хостом или брандмауэром (или чем-то аналогичным)."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:142
+msgid "Automatically discard spam comments on posts older than a month."
+msgstr "Автоматически удалять «спам-комментарии» в записях старше одного месяца."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:143
+msgid "Update options &raquo;"
+msgstr "Обновить настройки &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:152
+msgid "Akismet Stats"
+msgstr "Статистика Akismet"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:201
+msgid "Akismet is almost ready."
+msgstr "Akismet почти готов."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:201
+#, php-format
+msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
+msgstr "Вы должны <a href=\"%1$s\">ввести ваш WordPress.com API key</a>, чтобы он заработал."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:386
+#, php-format
+msgid "Akismet Spam (%s)"
+msgstr "Akismet Спам (%s)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:388
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:390
+msgid "Akismet Spam"
+msgstr "Спам Akismet"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:400
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:419
+msgid "You do not have sufficient permission to moderate comments."
+msgstr "Вы не имеете достаточно прав чтобы модерировать комментарии."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:431
+#, php-format
+msgid "%1$s comments recovered."
+msgstr "%1$s комментариев восстановлено."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:435
+msgid "All spam deleted."
+msgstr "Весь «спам» удален."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:483
+msgid "Caught Spam"
+msgstr "Возможный спам"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:488
+#, php-format
+msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
+msgstr "Akismet отловил уже кучу «спама» (<strong>%1$s</strong>) со времени установки."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:495
+msgid "You have no spam currently in the queue. Must be your lucky day. :)"
+msgstr "У вас нет «спама». Удачный день :)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:498
+msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
+msgstr "Вы можете удалить весь «спам» из базы данных одним нажатием кнопки. Это действие необратимо, поэтому проверьте комментарии перед удалением – вдруг там окажется «не спам». «Спам» автоматически удаляется по истечении 15 дней."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:504
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:682
+#, php-format
+msgid "There are currently %1$s comments identified as spam."
+msgstr "В настоящее время %1$s комментариев определено как «спам»."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:504
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:682
+msgid "Delete all"
+msgstr "Удалить все"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:511
+msgid "Search"
+msgstr "Найти"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:513
+msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
+msgstr "Эти последние комментарии идентифицированы Akismet-ом как «спам». Если вы заметили ошибки, просто пометьте комментарии как «не спам» и Akismet обучится на них. Если вы хотите восстановить комментарий из спама, просто выберите комментарий, и нажмите кнопку «не спам». Спам автоматически удаляется по истечении 15 дней."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:544
+msgid "All"
+msgstr "Все"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:549
+msgid "Comments"
+msgstr "Комментарии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:567
+msgid "Search Spam &raquo;"
+msgstr "Поиск спама &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:574
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:641
+msgid "&laquo; Previous Page"
+msgstr "&laquo; Предыдущая страница"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:595
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:662
+msgid "Next Page &raquo;"
+msgstr "Следующая страница &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:617
+msgid "IP:"
+msgstr "IP:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:623
+msgid "Not Spam"
+msgstr "Не спам"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:629
+msgid "View Post"
+msgstr "Просмотреть запись"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:668
+msgid "De-spam marked comments &raquo;"
+msgstr "Снять пометку «спам» с отмеченных комментариев &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:670
+msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
+msgstr "Комментарии, помеченные, как «не спам», будут отправлены в Akismet, чтобы система обучалась и становилась лучше."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:675
+msgid "No results found."
+msgstr "Результаты не найдены."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:700
+msgid "Spam"
+msgstr "Спам комментарий"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:706
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
+msgstr "<a href=\"%1$s\">Akismet</a> защитил ваш сайт от <a href=\"%2$s\">%3$s спам комментариев</a>."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:724
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
+msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт от %2$s спам комментария,"
+msgstr[1] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт от %2$s спам комментариев,"
+msgstr[2] "<a href=\"%1$s\">Akismet</a> уже защитил ваш сайт от %2$s спам комментариев,"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:729
+#, php-format
+msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
+msgstr "<a href=\"%1$s\">Akismet</a> блокирует спам в вашем блоге,"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:734
+#, php-format
+msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
+msgstr[0] "и в настоящее время <a href=\"%2$s\">в очереди спама %1$s комментарий</a>."
+msgstr[1] "и в настоящее время <a href=\"%2$s\">%1$s комментария в очереди спама</a>."
+msgstr[2] "и в настоящее время <a href=\"%2$s\">%1$s комментариев в очереди спама</a>."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:739
+#, php-format
+msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgstr "но в настоящий момент <a href='%1$s'>очередь спама</a> пуста."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:742
+#, php-format
+msgid "%1$s %2$s|akismet_rightnow"
+msgstr "%1$s %2$s|akismet_rightnow"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:757
+msgid "Recheck Queue for Spam"
+msgstr "Послать запрос для спама"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:774
+msgid "Check for Spam"
+msgstr "Проверить на спам"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:843
+#, php-format
+msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
+msgstr "%1$s %2$s спам комментариев %3$s %4$s блокировано %5$s<br />%6$sAkismet%7$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:875
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:905
+msgid "spam comments"
+msgstr "спам комментарии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-content/plugins/akismet/akismet.php:905
+msgid "blocked by"
+msgstr "заблокировано"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/atomlib.php:133
+#, php-format
+msgid "XML error: %s at line %d"
+msgstr "Ошибка XML: %s в строке %d"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/author-template.php:254
+#, php-format
+msgid "Visit %s's website"
+msgstr "Посетить сайт %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/author-template.php:395
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/author-template.php:496
+#, php-format
+msgid "Posts by %s"
+msgstr "Написал %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/bookmark-template.php:86
+#, php-format
+msgid "Last updated: %s"
+msgstr "Последнее обновление: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/bookmark-template.php:204
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:105
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:227
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:230
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:237
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:250
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:253
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:260
+#, php-format
+msgid "View all posts in %s"
+msgstr "Просмотреть все записи в %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:214
+msgid "Uncategorized"
+msgstr "Новости"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:465
+msgid "Categories"
+msgstr "Рубрики"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:489
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:491
+msgid "No categories"
+msgstr "Нет рубрик"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/category-template.php:594
+#, php-format
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "%s запись"
+msgstr[1] "%s записи"
+msgstr[2] "%s записей"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:83
+msgid "No server specified"
+msgstr "Сервер не указан"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:91
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:103
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:124
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:247
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:301
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:312
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:360
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:394
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:427
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:526
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:549
+msgid "Error "
+msgstr "Ошибка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:116
+msgid "no login ID submitted"
+msgstr "ID логина не предоставлен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:119
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:139
+msgid "connection not established"
+msgstr "подключение не установлено"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:136
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:172
+msgid "No password submitted"
+msgstr "Пароль не введен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:144
+msgid "Authentication failed"
+msgstr "Неудачная аутентификация"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:163
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:206
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:231
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:273
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:347
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:387
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:417
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:451
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:514
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:582
+msgid "No connection to server"
+msgstr "Нет подключения к серверу"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:169
+msgid "No login ID submitted"
+msgstr "ID логина не предоставлен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:177
+msgid "No server banner"
+msgstr "Нет заголовка сервера"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:177
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:187
+msgid "abort"
+msgstr "прервано"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:187
+msgid "apop authentication failed"
+msgstr "Неудачная аутентификация apop"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:324
+msgid "Premature end of list"
+msgstr "Преждевременный конец списка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:457
+msgid "Empty command string"
+msgstr "Пустая строка команды"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:477
+msgid "connection does not exist"
+msgstr "подключение не существует"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:587
+msgid "No msg number submitted"
+msgstr "Нет подтвержденного номера сообщения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/class-pop3.php:593
+msgid "Command failed "
+msgstr "Неудачная команда"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/classes.php:1317
+#, php-format
+msgid "View all posts filed under %s"
+msgstr "Просмотреть все записи в рубрике %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/classes.php:1332
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr "RSS лента всех записей в рубрике %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:29
+msgid "Anonymous"
+msgstr "Аноним"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:548
+msgid "% Comments"
+msgstr "% комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:550
+msgid "No Comments"
+msgstr "Нет комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:552
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:916
+msgid "Enter your password to view comments"
+msgstr "Введите пароль для просмотра комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:943
+#, php-format
+msgid "Comment on %s"
+msgstr "Комментарий на %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:968
+msgid "Reply"
+msgstr "Ответить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:969
+msgid "Log in to Reply"
+msgstr "Авторизуйтесь чтобы оставить ответ"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1027
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1028
+msgid "Log in to leave a Comment"
+msgstr "Авторизуйтесь чтобы оставить комментарий"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1067
+msgid "Click here to cancel reply."
+msgstr "Щелкните чтобы отменить ответ"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1226
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">пишет:</span>"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1229
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает одобрения."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1233
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment-template.php:1233
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:254
+msgid "Unapproved"
+msgstr "Неодобренные"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:255
+msgid "Approved"
+msgstr "Одобрен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:256
+msgid "Spam|adjective"
+msgstr "Спам|adjective"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:411
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:413
+msgid "Duplicate comment detected; it looks as though you've already said that!"
+msgstr "Дубликат комментария удален. Кажется, вы уже сказали это!"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:470
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/comment.php:472
+msgid "You are posting comments too quickly.  Slow down."
+msgstr "Вы комментируете слишком часто. Пожалуйста подождите несколько секунд перед отправкой следующего комментария."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/cron.php:271
+msgid "Once Hourly"
+msgstr "Раз в час"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/cron.php:272
+msgid "Twice Daily"
+msgstr "Дважды в день"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/cron.php:273
+msgid "Once Daily"
+msgstr "Раз в день"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/deprecated.php:126
+msgid "new WordPress Loop"
+msgstr "новый цикл (The Loop) WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/deprecated.php:741
+msgid "None"
+msgstr "Нет"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/deprecated.php:1016
+msgid "Last updated"
+msgstr "Последнее обновление"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-atom-comments.php:18
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:21
+#, php-format
+msgid "Comments on: %s"
+msgstr "Комментарии на: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-atom-comments.php:20
+#, php-format
+msgid "Comments for %1$s searching on %2$s"
+msgstr "Комментарии на сайте %1$s по запросу %2$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-atom-comments.php:22
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:25
+#, php-format
+msgid "Comments for %s"
+msgstr "Комментарии для %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-atom-comments.php:53
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:45
+#, php-format
+msgid "Comment on %1$s by %2$s"
+msgstr "Комментарий на %1$s от %2$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-atom-comments.php:55
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:47
+#, php-format
+msgid "By: %s"
+msgstr "От: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:23
+#, php-format
+msgid "Comments for %s searching on %s"
+msgstr "Комментарии на %s по запросу %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/feed-rss2-comments.php:55
+msgid "Protected Comments: Please enter your password to view comments."
+msgstr "Защищенные комментарии: введите пароль для просмотра комментариев."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:1295
+#, php-format
+msgid "%s min"
+msgid_plural "%s mins"
+msgstr[0] "%s минута"
+msgstr[1] "%s минуты"
+msgstr[2] "%s минут"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:1301
+#, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s час"
+msgstr[1] "%s часа"
+msgstr[2] "%s часов"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:1307
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s день"
+msgstr[1] "%s дня"
+msgstr[2] "%s дней"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:2034
+msgid ", |between list items"
+msgstr ", |между элементами списка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:2035
+msgid ", and |between last two list items"
+msgstr ", и |между думя последними элементами списка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/formatting.php:2036
+msgid " and |between only two list items"
+msgstr " и |between only two list items"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:406
+#, php-format
+msgid "%s is a protected WP option and may not be modified"
+msgstr " %s защищен и не может быть изменен WordPress-ом"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1474
+#, php-format
+msgid "ERROR: %s is not a valid feed template"
+msgstr "ОШИБКА: %s не является допустимым шаблоном rss-ленты"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1874
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1975
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Не могу создать директорию %s. Проверьте, доступна ли родительская директория для записи (Права доступа должны быть 755, 775 либо 777 в зависимости от настроек вашего сервера)."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1960
+msgid "Empty filename"
+msgstr "Пустое имя файла"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1964
+msgid "Invalid file type"
+msgstr "Недопустимый тип файла"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:1981
+#, php-format
+msgid "Could not write file %s"
+msgstr "Невозможно записать файл %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2128
+#, php-format
+msgid "Your attempt to edit this attachment: &quot;%s&quot; has failed."
+msgstr "Попытка отредактировать вложение: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2130
+msgid "Your attempt to add this category has failed."
+msgstr "Попытка добавить рубрику не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2131
+#, php-format
+msgid "Your attempt to delete this category: &quot;%s&quot; has failed."
+msgstr "Попытка удалить рубрику: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2132
+#, php-format
+msgid "Your attempt to edit this category: &quot;%s&quot; has failed."
+msgstr "Попытка изменить рубрику: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2134
+#, php-format
+msgid "Your attempt to delete this comment: &quot;%s&quot; has failed."
+msgstr "Попытка удалить комментарий: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2135
+#, php-format
+msgid "Your attempt to unapprove this comment: &quot;%s&quot; has failed."
+msgstr "Попытка отклонить комментарий: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2136
+#, php-format
+msgid "Your attempt to approve this comment: &quot;%s&quot; has failed."
+msgstr "Попытка одобрить комментарий: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2137
+#, php-format
+msgid "Your attempt to edit this comment: &quot;%s&quot; has failed."
+msgstr "Попытка изменить комментарий: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2138
+msgid "Your attempt to bulk modify comments has failed."
+msgstr "Попытка массово изменить комментарии не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2139
+msgid "Your attempt to moderate comments has failed."
+msgstr "Попытка промодерировать комментарии не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2141
+msgid "Your attempt to add this link has failed."
+msgstr "Попытка добавить ссылку завершилась неудачно."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2142
+#, php-format
+msgid "Your attempt to delete this link: &quot;%s&quot; has failed."
+msgstr "Попытка удалить ссылку: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2143
+#, php-format
+msgid "Your attempt to edit this link: &quot;%s&quot; has failed."
+msgstr "Попытка изменить ссылку: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2144
+msgid "Your attempt to bulk modify links has failed."
+msgstr "Попытка массово изменить ссылки не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2146
+msgid "Your attempt to add this page has failed."
+msgstr "Попытка добавить страницу не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2147
+#, php-format
+msgid "Your attempt to delete this page: &quot;%s&quot; has failed."
+msgstr "Попытка удалить страницу: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2148
+#, php-format
+msgid "Your attempt to edit this page: &quot;%s&quot; has failed."
+msgstr "Попытка изменить страницу: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2150
+#, php-format
+msgid "Your attempt to edit this plugin file: &quot;%s&quot; has failed."
+msgstr "Попытка изменить файл плагина: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2151
+#, php-format
+msgid "Your attempt to activate this plugin: &quot;%s&quot; has failed."
+msgstr "Попытка активировать плагин: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2152
+#, php-format
+msgid "Your attempt to deactivate this plugin: &quot;%s&quot; has failed."
+msgstr "Попытка деактивировать плагин: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2153
+#, php-format
+msgid "Your attempt to upgrade this plugin: &quot;%s&quot; has failed."
+msgstr "Попытка обновить плагин: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2155
+msgid "Your attempt to add this post has failed."
+msgstr "Попытка добавить запись не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2156
+#, php-format
+msgid "Your attempt to delete this post: &quot;%s&quot; has failed."
+msgstr "Попытка удалить запись: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2157
+#, php-format
+msgid "Your attempt to edit this post: &quot;%s&quot; has failed."
+msgstr "Попытка изменить запись: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2159
+msgid "Your attempt to add this user has failed."
+msgstr "Попытка добавить пользователя завершилась неудачно."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2160
+msgid "Your attempt to delete users has failed."
+msgstr "Попытка удалить пользователей не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2161
+msgid "Your attempt to bulk modify users has failed."
+msgstr "Попытка массово изменить данные пользователей не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2162
+#, php-format
+msgid "Your attempt to edit this user: &quot;%s&quot; has failed."
+msgstr "Попытка изменить данные пользователя: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2163
+#, php-format
+msgid "Your attempt to modify the profile for: &quot;%s&quot; has failed."
+msgstr "Попытка изменить профиль для &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2165
+msgid "Your attempt to edit your settings has failed."
+msgstr "Попытка изменить ваши настройки не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2166
+#, php-format
+msgid "Your attempt to change your permalink structure to: %s has failed."
+msgstr "Попытка изменить структуру постоянных ссылок на: %s не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2167
+#, php-format
+msgid "Your attempt to edit this file: &quot;%s&quot; has failed."
+msgstr "Попытка изменить файл: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2168
+#, php-format
+msgid "Your attempt to edit this theme file: &quot;%s&quot; has failed."
+msgstr "Попытка изменить файл темы: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2169
+#, php-format
+msgid "Your attempt to switch to this theme: &quot;%s&quot; has failed."
+msgstr "Попытка переключиться на тему оформления: &laquo;%s&raquo; не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2171
+#, php-format
+msgid "You are attempting to log out of %s"
+msgstr "Вы пытаетесь выйти из %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2186
+msgid "Are you sure you want to do this?"
+msgstr "Вы уверены, что хотите сделать это?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2202
+msgid "WordPress Failure Notice"
+msgstr "Сообщение об ошибке WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2205
+msgid "Please try again."
+msgstr "Пожалуйста, попробуйте ещё раз."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2207
+#, php-format
+msgid "Do you really want to <a href='%s'>log out</a>?"
+msgstr "Вы действительно хотите <a href='%s'>выйти</a>?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2273
+msgid "WordPress &rsaquo; Error"
+msgstr "WordPress &rsaquo; Ошибка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2509
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2684
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2721
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr "%1$s <strong>не рекомендуется</strong> начиная с версии %2$s! Используйте вместо этого %3$s."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2686
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/functions.php:2723
+#, php-format
+msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
+msgstr "%1$s <strong>не рекомендуется</strong> начиная с версии %2$s и альтернатива недоступна. "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:112
+msgid "Search for:"
+msgstr "Найти:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:134
+msgid "Log out"
+msgstr "Выйти"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:194
+msgid "Site Admin"
+msgstr "Администрирование"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:451
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:767
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:964
+msgid "Calendar"
+msgstr "Календарь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:965
+#, php-format
+msgid "%1$s %2$s|Used as a calendar caption"
+msgstr "%1$s %2$s|используется в заголовке календаря"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:989
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:999
+#, php-format
+msgid "View posts for %1$s %2$s"
+msgstr "Просмотреть записи за %1$s %2$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1499
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1503
+msgid "HTML"
+msgstr "HTML"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1500
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1504
+msgid "Visual"
+msgstr "Визуальный редактор"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1660
+msgid "&laquo; Previous"
+msgstr "&laquo; Предыдущие"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/general-template.php:1661
+msgid "Next &raquo;"
+msgstr "Следующие &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:411
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:428
+msgid "Does not appear to be chunked encoded or body is malformed."
+msgstr "Does not appear to be chunked encoded or body is malformed."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:572
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:1042
+msgid "Too many redirects."
+msgstr "Слишком много редиректов."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:645
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:751
+#, php-format
+msgid "Malformed URL: %s"
+msgstr "Неправильный URL: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:656
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/http.php:786
+#, php-format
+msgid "Could not open handle for fopen() to %s"
+msgstr "Невозможно открыть обработку для fopen() в %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:436
+msgid "Comments Feed"
+msgstr "Лента комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:597
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:814
+msgid "Edit This"
+msgstr "Редактировать"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:599
+msgid "Edit tag"
+msgstr "Редактировать метку"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:725
+msgid "Edit post"
+msgstr "Редактировать запись"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:775
+msgid "Edit comment"
+msgstr "Редактировать комментарий"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:816
+msgid "Edit link"
+msgstr "Редактировать ссылку"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:956
+msgid "Previous Post"
+msgstr "Предыдущая запись"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:956
+msgid "Next Post"
+msgstr "Следующая запись"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:1275
+msgid "Newer Comments &raquo;"
+msgstr "Свежие комментарии &raquo;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/link-template.php:1305
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Старые комментарии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:108
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:118
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:131
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:109
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:119
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:132
+msgid "Monday"
+msgstr "Понедельник"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:110
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:120
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:133
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:111
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:121
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:134
+msgid "Wednesday"
+msgstr "Среда"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:112
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:122
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:135
+msgid "Thursday"
+msgstr "Четверг"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:113
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:123
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:136
+msgid "Friday"
+msgstr "Пятница"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:114
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:124
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:137
+msgid "Saturday"
+msgstr "Суббота"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:118
+msgid "S_Sunday_initial"
+msgstr "Вс"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:119
+msgid "M_Monday_initial"
+msgstr "Пн"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:120
+msgid "T_Tuesday_initial"
+msgstr "Вт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:121
+msgid "W_Wednesday_initial"
+msgstr "Ср"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:122
+msgid "T_Thursday_initial"
+msgstr "Чт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:123
+msgid "F_Friday_initial"
+msgstr "Пт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:124
+msgid "S_Saturday_initial"
+msgstr "Сб"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:131
+msgid "Sun"
+msgstr "Вс"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:132
+msgid "Mon"
+msgstr "Пн"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:133
+msgid "Tue"
+msgstr "Вт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:134
+msgid "Wed"
+msgstr "Ср"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:135
+msgid "Thu"
+msgstr "Чт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:136
+msgid "Fri"
+msgstr "Пт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:137
+msgid "Sat"
+msgstr "Сб"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:140
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:155
+msgid "January"
+msgstr "Январь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:141
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:156
+msgid "February"
+msgstr "Февраль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:142
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:157
+msgid "March"
+msgstr "Март"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:143
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:158
+msgid "April"
+msgstr "Апрель"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:144
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:159
+msgid "May"
+msgstr "Май"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:145
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:160
+msgid "June"
+msgstr "Июнь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:146
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:161
+msgid "July"
+msgstr "Июль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:147
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:162
+msgid "August"
+msgstr "Август"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:148
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:163
+msgid "September"
+msgstr "Сентябрь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:149
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:164
+msgid "October"
+msgstr "Октябрь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:150
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:165
+msgid "November"
+msgstr "Ноябрь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:151
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:166
+msgid "December"
+msgstr "Декабрь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:155
+msgid "Jan_January_abbreviation"
+msgstr "Янв"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:156
+msgid "Feb_February_abbreviation"
+msgstr "Фев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:157
+msgid "Mar_March_abbreviation"
+msgstr "Март"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:158
+msgid "Apr_April_abbreviation"
+msgstr "Апр"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:159
+msgid "May_May_abbreviation"
+msgstr "Май"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:160
+msgid "Jun_June_abbreviation"
+msgstr "Июнь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:161
+msgid "Jul_July_abbreviation"
+msgstr "Июль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:162
+msgid "Aug_August_abbreviation"
+msgstr "Авг"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:163
+msgid "Sep_September_abbreviation"
+msgstr "Сен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:164
+msgid "Oct_October_abbreviation"
+msgstr "Окт"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:165
+msgid "Nov_November_abbreviation"
+msgstr "Ноя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:166
+msgid "Dec_December_abbreviation"
+msgstr "Дек"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:173
+msgid "am"
+msgstr "дп"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:174
+msgid "pm"
+msgstr "пп"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:175
+msgid "AM"
+msgstr "ДП"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:176
+msgid "PM"
+msgstr "ПП"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:181
+msgid "number_format_decimals|$decimals argument for http://php.net/number_format, default is 0"
+msgstr "number_format_decimals|$decimals аргумент для http://php.net/number_format, по умолчанию это 0"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:184
+msgid "number_format_decimal_point|$dec_point argument for http://php.net/number_format, default is ."
+msgstr "number_format_decimal_point|$dec_point аргумент для http://php.net/number_format, по умолчанию это ."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/locale.php:187
+msgid "number_format_thousands_sep|$thousands_sep argument for http://php.net/number_format, default is ,"
+msgstr "number_format_thousands_sep|$thousands_sep аргумент для http://php.net/number_format, по умолчанию это ,"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/media.php:372
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/media.php:376
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/media.php:382
+msgid "Resize path invalid"
+msgstr "Неверный путь для создания миниатюры"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:442
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr "<strong>ОШИБКА</strong>: Введите имя пользователя."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:445
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr "<strong>ОШИБКА</strong>: Введите пароль."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:451
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr "<strong>ОШИБКА</strong>: Неправильное имя пользователя."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:462
+msgid "<strong>ERROR</strong>: Incorrect password."
+msgstr "<strong>ОШИБКА</strong>: Неправильный пароль."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:949
+#, php-format
+msgid "New comment on your post #%1$s \"%2$s\""
+msgstr "Новый комментарий на вашу запись #%1$s \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:950
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1045
+#, php-format
+msgid "Author : %1$s (IP: %2$s , %3$s)"
+msgstr "Автор : %1$s (IP: %2$s , %3$s)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:951
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1046
+#, php-format
+msgid "E-mail : %s"
+msgstr "Email : %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:952
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:960
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:967
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1032
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1039
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1047
+#, php-format
+msgid "URL    : %s"
+msgstr "URL    : %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:953
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1048
+#, php-format
+msgid "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+msgstr "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:954
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1049
+msgid "Comment: "
+msgstr "Комментарий: "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:955
+msgid "You can see all comments on this post here: "
+msgstr "Вы можете увидеть все комментарии на эту запись здесь: "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:956
+#, php-format
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr "[%1$s] Комментарий: \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:958
+#, php-format
+msgid "New trackback on your post #%1$s \"%2$s\""
+msgstr "Новый трэкбек на вашу запись #%1$s \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:959
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:966
+#, php-format
+msgid "Website: %1$s (IP: %2$s , %3$s)"
+msgstr "Сайт: %1$s (IP: %2$s , %3$s)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:961
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:968
+msgid "Excerpt: "
+msgstr "Цитата: "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:962
+msgid "You can see all trackbacks on this post here: "
+msgstr "Вы можете увидеть все трэкбеки на эту запись здесь: "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:963
+#, php-format
+msgid "[%1$s] Trackback: \"%2$s\""
+msgstr "[%1$s] Trackback: \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:965
+#, php-format
+msgid "New pingback on your post #%1$s \"%2$s\""
+msgstr "Новый пинг на вашу запись #%1$s \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:969
+msgid "You can see all pingbacks on this post here: "
+msgstr "Вы можете просмотреть все пинги  на эту запись здесь:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:970
+#, php-format
+msgid "[%1$s] Pingback: \"%2$s\""
+msgstr "[%1$s] Пинг: \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:973
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1054
+#, php-format
+msgid "Delete it: %s"
+msgstr "Удалить: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:974
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1055
+#, php-format
+msgid "Spam it: %s"
+msgstr "Пометить как спам: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1029
+#, php-format
+msgid "A new trackback on the post #%1$s \"%2$s\" is waiting for your approval"
+msgstr "Новый трэкбек к записи #%1$s \"%2$s\" ожидает вашего одобрения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1031
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1038
+#, php-format
+msgid "Website : %1$s (IP: %2$s , %3$s)"
+msgstr "Сайт: %1$s (IP: %2$s , %3$s)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1033
+msgid "Trackback excerpt: "
+msgstr "Цитата из трэкбека: "
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1036
+#, php-format
+msgid "A new pingback on the post #%1$s \"%2$s\" is waiting for your approval"
+msgstr "Новый пинг к записи #%1$s \"%2$s\" ожидает вашего одобрения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1040
+msgid "Pingback excerpt: "
+msgstr "Цитата из уведомления:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1043
+#, php-format
+msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
+msgstr "Новый комментарий на запись #%1$s \"%2$s\" ожидает вашего одобрения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1053
+#, php-format
+msgid "Approve it: %s"
+msgstr "Одобрить: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1057
+#, php-format
+msgid "Currently %s comment is waiting for approval. Please visit the moderation panel:"
+msgid_plural "Currently %s comments are waiting for approval. Please visit the moderation panel:"
+msgstr[0] "В настоящее время %s комментарий для одобрения. Пожалуйста, посетите панель модерации:"
+msgstr[1] "В настоящее время %s комментария для одобрения. Пожалуйста, посетите панель модерации:"
+msgstr[2] "В настоящее время %s комментариев для одобрения. Пожалуйста, посетите панель модерации:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1061
+#, php-format
+msgid "[%1$s] Please moderate: \"%2$s\""
+msgstr "[%1$s] пожалуйста, промодерируйте: \"%2$s\""
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1085
+#, php-format
+msgid "Password Lost and Changed for user: %s"
+msgstr "Пароль потерян и изменен для пользователя: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1086
+#, php-format
+msgid "[%s] Password Lost/Changed"
+msgstr "[%s] Пароль изменен"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1106
+#, php-format
+msgid "New user registration on your blog %s:"
+msgstr "Новый пользователь зарегистрировался на вашем блоге %s:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1108
+#, php-format
+msgid "E-mail: %s"
+msgstr "Email: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1110
+#, php-format
+msgid "[%s] New User Registration"
+msgstr "[%s] Регистрация нового пользователя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/pluggable.php:1119
+#, php-format
+msgid "[%s] Your username and password"
+msgstr "[%s] Ваше имя пользователя и пароль"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:113
+#, php-format
+msgid "Protected: %s"
+msgstr "Защищено: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:115
+#, php-format
+msgid "Private: %s"
+msgstr "Личное: %s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:183
+msgid "(more...)"
+msgstr "(далее...)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:254
+msgid "There is no excerpt because this is a protected post."
+msgstr "Цитаты нет, т.к. эта запись защищена."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:420
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:422
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:423
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:598
+msgid "Pages"
+msgstr "Страницы"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:677
+msgid "Home"
+msgstr "Главная"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:778
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:810
+msgid "Missing Attachment"
+msgstr "Вложение не найдено"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:984
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr "Эта запись защищена паролем. Для ее просмотра введите, пожалуйста, пароль:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:985
+msgid "Password:"
+msgstr "Пароль:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:985
+msgid "Submit"
+msgstr "Подтвердить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1047
+msgid "j F, Y @ G:i|revision date format"
+msgstr "j.m.Y в G:i|формат даты ревизии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1048
+#, php-format
+msgid "%s [Autosave]"
+msgstr "%s [Автосохранение]"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1049
+#, php-format
+msgid "%s [Current Revision]"
+msgstr "%s [Текущая ревизия]"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1114
+#, php-format
+msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
+msgstr "%1$s от %2$s|ревизия записи 1:дата и время, 2:имя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1141
+msgid "Restore"
+msgstr "Восстановить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1163
+msgid "Compare Revisions"
+msgstr "Сравнить ревизии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1178
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1179
+msgid "Author"
+msgstr "Автор"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post-template.php:1180
+msgid "Actions"
+msgstr "Действия"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:354
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:375
+msgid "Draft"
+msgstr "черновик"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:355
+msgid "Pending Review"
+msgstr "требует одобрения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:356
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:376
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:200
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:222
+msgid "Private"
+msgstr "личная"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:357
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:377
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:205
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:226
+msgid "Published"
+msgstr "опубликована"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:1329
+msgid "Content, title, and excerpt are empty."
+msgstr "Содержание, заголовок и цитата не заполнены."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:1464
+msgid "Could not update post in the database"
+msgstr "Невозможно обновить запись в базе данных"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:1480
+msgid "Could not insert post into the database"
+msgstr "Невозможно вставить запись в базу данных"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:1516
+msgid "The page template is invalid."
+msgstr "Шаблон страницы недопустим."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:3255
+msgid "Title"
+msgstr "<small>Заголовок</small>"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:3256
+msgid "Content"
+msgstr "Текст"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:3257
+msgid "Excerpt"
+msgstr "Цитата"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:3447
+msgid "Cannot create a revision of a revision"
+msgstr "Невозможно создать ревизию ревизии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/post.php:3619
+msgid "You do not have permission to preview drafts."
+msgstr "Вы не имеете достаточно прав для просмотра черновиков."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/rss.php:904
+msgid "An error has occurred, which probably means the feed is down. Try again later."
+msgstr "Произошла ошибка, которая, вероятно, означает что RSS лента не работает. Повторите попытку позже."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:49
+msgid "(Quick Links)"
+msgstr "(быстрые ссылки)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:50
+msgid "Enter a word to look up:"
+msgstr "Введите слово для поиска:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:51
+msgid "Dictionary lookup"
+msgstr "Поиск по словарю"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:52
+msgid "lookup"
+msgstr "поиск"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:53
+msgid "Close all open tags"
+msgstr "Закрыть все открытые теги"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:54
+msgid "close tags"
+msgstr "закрыть теги"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:55
+msgid "Enter the URL"
+msgstr "Введите URL"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:56
+msgid "Enter the URL of the image"
+msgstr "Введите URL к изображению"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:57
+msgid "Enter a description of the image"
+msgstr "Введите описание изображения"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:75
+msgid "You do not have permission to do that."
+msgstr "Вы не имеете достаточно прав чтобы сделать это."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:76
+msgid "An unidentified error has occurred."
+msgstr "Произошла неопознанная ошибка."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:117
+msgid "You have attempted to queue too many files."
+msgstr "Вы пытаетесь выбрать слишком много файлов."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:118
+#, php-format
+msgid "This file is too big. Your php.ini upload_max_filesize is %s."
+msgstr "Файл слишком большой. Параметр upload_max_filesize в php.ini равен %s."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:119
+msgid "This file is empty. Please try another."
+msgstr "Выбранный вами файл пуст. Пожалуйста, выберите другой файл."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:120
+msgid "This file type is not allowed. Please try another."
+msgstr "Данный тип файлов не разрешен. Пожалуйста, попробуйте другой."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:121
+msgid "An error occurred in the upload. Please try again later."
+msgstr "Во время загрузки произошла ошибка. Пожалуйста, повторите попытку позже."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:122
+msgid "There was a configuration error. Please contact the server administrator."
+msgstr "Ошибка конфигурации. Пожалуйста, свяжитесь с администратором сервера."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:123
+msgid "You may only upload 1 file."
+msgstr "Вы можете загрузить только 1 файл."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:124
+msgid "HTTP error."
+msgstr "Ошибка HTTP."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:125
+msgid "Upload failed."
+msgstr "Загрузка не удалась."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:126
+msgid "IO error."
+msgstr "Ошибка ввода/вывода."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:127
+msgid "Security error."
+msgstr "Ошибка безопасности."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:128
+msgid "File cancelled."
+msgstr "Загрузка отменена."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:129
+msgid "Upload stopped."
+msgstr "Загрузка остановлена."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:130
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:131
+msgid "Crunching&hellip;"
+msgstr "Изменение размеров&hellip;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:132
+msgid "Deleted"
+msgstr "Удален"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:148
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:185
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:242
+msgid "Add"
+msgstr "Добавить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:149
+msgid "Separate multiple categories with commas."
+msgstr "Разделяйте несколько рубрик запятыми."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:157
+msgid "Strength indicator"
+msgstr "Индикатор надежности"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:158
+msgid "Very weak"
+msgstr "Очень слабый"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:159
+msgid "Weak"
+msgstr "Слабый"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:160
+msgid "Medium|password strength"
+msgstr "Неплохой|password strength"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:161
+msgid "Strong"
+msgstr "Надежный"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:178
+msgid "Save"
+msgstr "Сохранить"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:179
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:188
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:210
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:232
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:244
+msgid "Cancel"
+msgstr "Отмена"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:184
+msgid "Tags used on this post:"
+msgstr "Метки, используемые для записи:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:186
+msgid "Add new tag"
+msgstr "Добавить новую  метку"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:187
+msgid "Separate tags with commas"
+msgstr "Если меток несколько, разделите их запятыми"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:189
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:211
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:233
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:243
+msgid "Edit"
+msgstr "Редактировать"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:190
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:212
+msgid "Publish on:"
+msgstr "Опубликовать:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:191
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:213
+msgid "Schedule for:"
+msgstr "Запланировать:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:192
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:214
+msgid "Published on:"
+msgstr "Опубликовано:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:193
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:215
+msgid "Show more comments"
+msgstr "Показать больше комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:194
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:216
+msgid "No more comments found."
+msgstr "Больше комментариев не найдено."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:195
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:217
+msgid "Publish"
+msgstr "Опубликовать"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:196
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:218
+msgid "Schedule"
+msgstr "Запланировать"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:197
+msgid "Update Post"
+msgstr "Обновить запись"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:198
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:220
+msgid "Save as Pending"
+msgstr "Сохранить в очередь"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:199
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:221
+msgid "Save Draft"
+msgstr "Сохранить черновик"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:201
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:223
+msgid "Public"
+msgstr "публичная"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:202
+msgid "Public, Sticky"
+msgstr "публичная, прикрепленная"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:203
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:224
+msgid "Password Protected"
+msgstr "Защищена паролем"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:204
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:225
+msgid "Privately Published"
+msgstr "Личная"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:219
+msgid "Update Page"
+msgstr "Обновить страницу"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:234
+msgid "Submitted on:"
+msgstr "Отправлен:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:245
+msgid "Remember to click the \"Save Changes\" button at the bottom of the Current Widgets column after you're all done!"
+msgstr "Не забудьте нажать на кнопку «Сохранить изменения» внизу колонки «Активированные виджеты» после того как вы все настроите!"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:246
+msgid "You're about to leave without having saved your changes!"
+msgstr "Вы собираетесь уйти без сохранения ваших изменений!"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:252
+#, php-format
+msgid "Word count: %d"
+msgstr "Количество слов: %d"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:258
+msgid "Update completed."
+msgstr "Обновление завершено."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:259
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:267
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:275
+msgid "Error while saving the changes."
+msgstr "Ошибка при сохранении изменений."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:268
+msgid "Remove From Bulk Edit"
+msgstr "Удалить из группового редактирования"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:269
+msgid "(no title)"
+msgstr "(без заголовка)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:281
+msgid "Plugin Information:"
+msgstr "Информация о плагине:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:385
+msgid "Preview this Page"
+msgstr "Предпросмотр страницы"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:386
+msgid "Preview this Post"
+msgstr "Предпросмотр записи"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/script-loader.php:388
+msgid "Saving Draft&#8230;"
+msgstr "Сохранение черновика&#8230;"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:237
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:308
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:430
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:601
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1153
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1381
+msgid "Invalid Taxonomy"
+msgstr "Неверная таксономия"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:303
+msgid "Empty Term"
+msgstr "Пустой термин"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1279
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1535
+msgid "Invalid taxonomy"
+msgstr "Неверная таксономия"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1282
+msgid "Invalid term ID"
+msgstr "Неверный ID термина"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1285
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1558
+msgid "A name is required for this term"
+msgstr "Для термина требуется указать имя"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1316
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1323
+msgid "Could not insert term into the database"
+msgstr "Невозможно вставить термин в базу данных"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:1586
+#, php-format
+msgid "The slug \"%s\" is already in use by another term"
+msgstr "Короткая ссылка \"%s\" уже используется в другом термине."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/taxonomy.php:2245
+msgid "Invalid object ID"
+msgstr "Неверный ID объекта"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/theme.php:219
+msgid "Visit author homepage"
+msgstr "Посетить страницу автора"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/theme.php:295
+msgid "Stylesheet is missing."
+msgstr "Список стилей утерян."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/theme.php:309
+msgid "File not readable."
+msgstr "Файл не читаемый."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/theme.php:350
+msgid "Template is missing."
+msgstr "Шаблон утерян."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/user.php:61
+msgid "Please log in again."
+msgstr "Пожалуйста, войдите заново."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:80
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:142
+#, php-format
+msgid "Sidebar %d"
+msgstr "Сайдбар %d"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:82
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:724
+msgid "Sort by:"
+msgstr "Сортировать по:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:726
+msgid "Page title"
+msgstr "заголовку страницы"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:727
+msgid "Page order"
+msgstr "по порядку страниц"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:728
+msgid "Page ID"
+msgstr "по номерам страниц"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:733
+msgid "Exclude:"
+msgstr "Исключить:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:735
+msgid "Page IDs, separated by commas."
+msgstr "Указывайте номера страниц, заделенные запятыми."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:788
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1926
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1927
+msgid "Archives"
+msgstr "Архивы"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:795
+msgid "Select Month"
+msgstr "Выберите месяц"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:830
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1204
+msgid "Show post counts"
+msgstr "Показывать количество записей"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:832
+msgid "Display as a drop down"
+msgstr "Показывать как выпадающий список"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:850
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1933
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1934
+msgid "Meta"
+msgstr "Управление"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:857
+msgid "Syndicate this site using RSS 2.0"
+msgstr "Синдикация сайта, используя RSS 2.0"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:857
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> Записей"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:858
+msgid "The latest comments to all posts in RSS"
+msgstr "Последние комментарии ко всем записям по RSS"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:858
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> Комментариев"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:859
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Работает на WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1039
+msgid "Arbitrary text or HTML"
+msgstr "Произвольный текст или HTML-код"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1041
+msgid "Text"
+msgstr "Текст"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1093
+msgid "Select Category"
+msgstr "Выберите рубрику"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1199
+msgid "Show as dropdown"
+msgstr "Показать как выпадающий список"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1209
+msgid "Show hierarchy"
+msgstr "Показать иерархию"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1229
+msgid "A list or dropdown of categories"
+msgstr "Обычный или выпадающий список рубрик"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1301
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1940
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1941
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1364
+msgid "Number of posts to show:"
+msgstr "Показывать записей (кол-во):"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1366
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1442
+msgid "(at most 15)"
+msgstr "(не более 15)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1383
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1466
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1467
+msgid "Recent Comments"
+msgstr "Последние комментарии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1401
+#, php-format
+msgid "%1$s on %2$s"
+msgstr "%1$s на %2$s"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1440
+msgid "Number of comments to show:"
+msgstr "Показывать комментариев (кол-во):"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1465
+msgid "The most recent comments"
+msgstr "Самые свежие комментарии"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1517
+msgid "Unknown Feed"
+msgstr "Неизвестная лента"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1524
+msgid "Syndicate this content"
+msgstr "Синдикация этого содержания"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1576
+msgid "Untitled"
+msgstr "Без заголовка"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1625
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr "Произошла ошибка, RSS лента временно недоступна. Попробуйте позже."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1731
+msgid "Enter the RSS feed URL here:"
+msgstr "Введите URL RSS ленты здесь:"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1737
+msgid "Give the feed a title (optional):"
+msgstr "Укажите заголовок RSS ленты (не обязательно)"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1743
+msgid "How many items would you like to display?"
+msgstr "Сколько элементов вы хотите отображать?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1756
+msgid "Display item content?"
+msgstr "Отображать содержимое элемента?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1763
+msgid "Display item author if available?"
+msgstr "Отображать автора элемента, если таковой имеется?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1770
+msgid "Display item date?"
+msgstr "Отображать дату элемента?"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1818
+msgid "Error: could not find an RSS or ATOM feed at that URL."
+msgstr "Ошибка: невозможно найти RSS или ATOM фид по этому URL."
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1819
+#, php-format
+msgid "Error in RSS %1$d"
+msgstr "Ошибка в RSS %1$d"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1838
+msgid "Entries from any RSS or Atom feed"
+msgstr "Записи из любой ленты RSS или Atom"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1840
+msgid "RSS"
+msgstr "RSS"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1869
+msgid "Tags"
+msgstr "Метки"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1917
+msgid "Your blog's WordPress Pages"
+msgstr "Страницы вашего блога WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1921
+msgid "A calendar of your blog's posts"
+msgstr "Календарь записей вашего блога"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1925
+msgid "A monthly archive of your blog's posts"
+msgstr "Архив записей вашего блога по месяцам"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1929
+msgid "Your blogroll"
+msgstr "Ваши ссылки"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1930
+msgid "Links"
+msgstr "Ссылки"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1932
+msgid "Log in/out, admin, feed and WordPress links"
+msgstr "Ссылки для входа/выхода, панель администрирования, RSS ленту и WordPress"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1936
+msgid "A search form for your blog"
+msgstr "Форма поиска для вашего блога"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1939
+msgid "The most recent posts on your blog"
+msgstr "Самые свежие записи вашего блога"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1943
+msgid "Your most used tags in cloud format"
+msgstr "Наиболее используемые метки в виде облака"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1944
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/widgets.php:1945
+msgid "Tag Cloud"
+msgstr "Облако меток"
+
+#: X:\web\wordpress\main\project-liteWP\2.7\lite/wp-includes/wp-db.php:908
+#, php-format
+msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.0.0 or higher"
+msgstr "<strong>ОШИБКА</strong>: Для работы WordPress %s требуется MySQL 4.0.0 или новее"
+
