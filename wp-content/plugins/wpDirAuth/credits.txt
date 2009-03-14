@@ -1,0 +1,33 @@
+=== wpDirAuth Credits ===
+
+wpDirAuth is made possible by the following contributors:
+
+  Stephane Daury
+    Current maintainer
+    Montreal, QC, Canada
+    http://stephane.daury.org/
+
+  Todd Beverly
+    wpDirAuth QA and patch contributor
+    Rochester, NY, USA
+    See http://wordpress.org/support/topic/129814
+
+  Richard Bullington-McGuire <rbulling@pkrinternet.com>
+    wpDirAuth patch contributor
+    wpLDAP SSL patch author
+    Arlington, VA, USA
+    Managing Partner, PKR Internet, LLC
+    http://www.pkrinternet.com/
+
+  Richard Valk
+    wpDirAuth QA contributor
+    http://richard5.net
+
+== wpLDAP Credits ==
+
+wpDirAuth was started (2007) from a patched version of wpLDAP 1.02.
+
+  Ashay Suresh Manjure
+    Original wpLDAP author
+    Los Angeles, CA, USA
+    http://ashay.org/
