@@ -17,6 +17,7 @@
 <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/functions.js" ></script>
 <style type="text/css" media="screen">
 
 <?php
@@ -35,6 +36,7 @@ if ( !empty($withcomments) && !is_single() ) {
 <?php wp_head(); ?>
 </head>
 <body>
+<script type='text/javascript'>showFirstTimeScreen(); </script>
 <div id="page">
 
 
