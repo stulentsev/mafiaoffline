@@ -37,9 +37,9 @@ function isFirstTimeVisit() {
 
 function showFirstTimeScreen() {
     if(isFirstTimeVisit()) {
-        setCookie('is_mafiosi', 'yes');
+        setCookie('is_mafiosi', 'yes', 365);
         jQuery.facebox(function() {
-          jQuery.get('/?page_id=2', function(data) {
+          jQuery.get('/welcome_message.html', function(data) {
             jQuery.facebox('<div style="width: 800px; height: 400px; overflow: auto">' + data + "</div>")
           });
 }) 
