@@ -41,9 +41,11 @@
 
 #facebox .body {
   padding: 10px;
-  background: #fff;
+  background: #000;
   width: 370px;
 }
+
+x
 
 #facebox .loading {
   text-align: center;
